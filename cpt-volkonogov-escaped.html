@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Cpt. Volkonogov Escaped (2021)</title>
-</head>
-<style>
-  body { margin: 0; } 
-</style>
-<body>
-  <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
-      
-  <video id="video-id" controls>
-    <source src="https://d1jzbypa9tp76.cloudfront.net/out/v1/f815e50fbdf942ac8ede2327fe7c2fa4/1f906f71800d4c7c9fa9272d75419702/a7ad19cfc6e6435499297d33a7f752c5/index.m3u8" type="application/x-mpegURL" />
-    <source src="https://d1jzbypa9tp76.cloudfront.net/out/v1/f815e50fbdf942ac8ede2327fe7c2fa4/812eb0a7c30a4e33b7aad99034f5cec5/e766b4a85e2743519c457e1f5039d9b1/index.mpd" type="application/dash+xml" />
-  </video>
-      
-  <script>
-    var myFP = fluidPlayer('video-id', { "layoutControls": {
-      "controlBar": {
-        "autoHideTimeout": 3,
-        "animated": false,
-        "autoHide": true
-      },
-      "autoPlay": true,
-      "mute": false,
-      "allowTheatre": true,
-      "keyboardControl": true,
-      "playPauseAnimation": false,
-      "playbackRateEnabled": true,
-      "allowDownload": true,
-      "playButtonShowing": true,
-      "fillToContainer": true,
-      "posterImage": "",
-      "controlForwardBackward": {
-        "show": true,
-        "doubleTapMobile": true
-      }}});
-  </script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cpt. Volkonogov Escaped (2021)</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" rel="stylesheet" integrity="sha384-fmZzkB5FaSyz2fHsFdE3/hJZL5DoXoksqtGmj/ceh67vi7uY+MXjBITJATdQsrMM" crossorigin="anonymous" />
+    <style>
+      body { margin: 0; } 
+    </style>  
+  </head>
+  <body>        
+    <video id="video-id" controls>
+      <source src="https://d1jzbypa9tp76.cloudfront.net/out/v1/f815e50fbdf942ac8ede2327fe7c2fa4/1f906f71800d4c7c9fa9272d75419702/a7ad19cfc6e6435499297d33a7f752c5/index.m3u8" type="application/x-mpegURL" />
+      <source src="https://d1jzbypa9tp76.cloudfront.net/out/v1/f815e50fbdf942ac8ede2327fe7c2fa4/812eb0a7c30a4e33b7aad99034f5cec5/e766b4a85e2743519c457e1f5039d9b1/index.mpd" type="application/dash+xml" />
+    </video>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" />
+    <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js" integrity="sha384-uAEBrfIsi8rboNbGfn4Y6289ctmpiOyXh/seVPWSVtdoGiurz30pvk1/eVzzRYCs" crossorigin="anonymous" />
+
+    <script>
+      var myFP = fluidPlayer('video-id', { "layoutControls": {
+        "controlBar": {
+          "autoHideTimeout": 3,
+          "animated": false,
+          "autoHide": true
+        },
+        "autoPlay": true,
+        "mute": false,
+        "allowTheatre": true,
+        "keyboardControl": true,
+        "playPauseAnimation": false,
+        "playbackRateEnabled": true,
+        "allowDownload": true,
+        "playButtonShowing": true,
+        "fillToContainer": true,
+        "posterImage": "",
+        "controlForwardBackward": {
+          "show": true,
+          "doubleTapMobile": true
+        }}});
+    </script>
+  </body>
 </html>
