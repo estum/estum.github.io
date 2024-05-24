@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cpt. Volkonogov Escaped (2021)</title>
+  </head>
+  <body>
+<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+    
+<video id="video-id">
+  <source src="https://d1jzbypa9tp76.cloudfront.net/out/v1/f815e50fbdf942ac8ede2327fe7c2fa4/1f906f71800d4c7c9fa9272d75419702/a7ad19cfc6e6435499297d33a7f752c5/index.m3u8" type="application/x-mpegURL" />
+  <source src="https://d1jzbypa9tp76.cloudfront.net/out/v1/f815e50fbdf942ac8ede2327fe7c2fa4/812eb0a7c30a4e33b7aad99034f5cec5/e766b4a85e2743519c457e1f5039d9b1/index.mpd" type="application/dash+xml" />
+</video>
+    
+<script>
+    var myFP = fluidPlayer(
+        'video-id',	{
+	"layoutControls": {
+		"controlBar": {
+			"autoHideTimeout": 3,
+			"animated": true,
+			"autoHide": true
+		},
+		"htmlOnPauseBlock": {
+			"html": null,
+			"height": null,
+			"width": null
+		},
+		"autoPlay": true,
+		"mute": false,
+		"allowTheatre": true,
+		"playPauseAnimation": false,
+		"playbackRateEnabled": true,
+		"allowDownload": true,
+		"playButtonShowing": true,
+		"fillToContainer": true,
+		"posterImage": ""
+	},
+	"vastOptions": {
+		"adList": [],
+		"adCTAText": false,
+		"adCTATextPosition": ""
+	}
+});
+</script>
+  </body>
+</html>
