@@ -6,8 +6,8 @@
     <title>Cpt. Volkonogov Escaped (2021)</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   </head>
-  <body class="min-vh-100 m-0 bg-body">
-    <div class="d-flex align-content-center h-100">
+  <body class="m-0 bg-body">
+    <div class="d-flex align-content-center flex-wrap min-vh-100">
       <div class="h-auto w-100">
         <video id="video-id" controls>
           <source src="https://d1jzbypa9tp76.cloudfront.net/out/v1/f815e50fbdf942ac8ede2327fe7c2fa4/1f906f71800d4c7c9fa9272d75419702/a7ad19cfc6e6435499297d33a7f752c5/index.m3u8" type="application/x-mpegURL" />
@@ -27,11 +27,12 @@
           "autoHide": true
         },
         "autoPlay": true,
+        "preload": true,
         "mute": false,
         "allowTheatre": true,
         "keyboardControl": true,
         "playPauseAnimation": false,
-        "playbackRateEnabled": true,
+        "playbackRateEnabled": false,
         "allowDownload": true,
         "playButtonShowing": true,
         "fillToContainer": true,
